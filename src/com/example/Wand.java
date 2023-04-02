@@ -1,23 +1,23 @@
 package com.example;
 
 public class Wand {
-  private String core;
+  private Core core;
   private int size;
 
 
   //constructeur
-  public Wand(String core, int size){;
+  public Wand(Core core, int size){;
     this.core = core;
     this.size = size;
   }
 
 
   // Getters and setters
-  public String getCore() {
+  public Core getCore() {
     return core;
   }
 
-  public void setWood(String core) {
+  public void setWood(Core core) {
     this.core = core;
   }
 

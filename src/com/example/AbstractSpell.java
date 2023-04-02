@@ -1,7 +1,8 @@
 package com.example;
 
-public interface AbstractSpell {        //
+public abstract class AbstractSpell {
 
   public abstract void attack(Character c);
+  public abstract String toString();
 
 }

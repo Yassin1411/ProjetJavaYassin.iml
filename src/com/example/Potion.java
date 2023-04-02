@@ -8,16 +8,16 @@ public class Potion {
 
   public void regenHealth(Wizard wizard) {
       int currentHealth = wizard.getHealth();
-      int health = 10;
-      if(wizard.getHouse() == "Hufflepuff"){
+      int health = 30;
+      if(wizard.getHouse() == House.Hufflepuff ){
         health+=5;
       }
       int newHealth = currentHealth + health;
       wizard.setHealth(newHealth);
       System.out.println(wizard.getName() + " a regagné "+ Integer.toString(health) +" points de vie grâce à une potion.");
 
-      
-      
+
+
   }
 
 }

@@ -6,14 +6,28 @@ public class SortingHat {
   //Tableau des 4 maisons + staticméthode est accessible sans créer d'abord un objet de la classe
   private static String[] houses = {"Gryffindor", "Slytherin", "Hufflepuff", "Ravenclaw"};
 
-  public static String assignHouse(Wizard wizard) {
+  public static House assignHouse(Wizard wizard) {
     Random random = new Random();
     int index = random.nextInt(houses.length);
     String house = houses[index];
-
+    House h = null;
+    switch(house){
+      case "Gryffindor":
+        h = House.Gryffindor;
+        break;
+      case "Slytherin":
+        h = House.Slytherin;
+        break;
+      case "Hufflepuff":
+        h = House.Hufflepuff;
+        break;
+      case "Ravenclaw":
+        h = House.Ravenclaw;
+        break;
+    }
     // Assigner la maison au sorcier
-    wizard.setHouse(house);
-    return house;
+    wizard.setHouse(h);
+    return h;
 
   }
 
