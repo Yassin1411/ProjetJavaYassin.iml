@@ -11,6 +11,9 @@ Vous devez maintenant choisir la baguette de votre choix et un message vous conf
 Grâce au chapeau, une maison vous sera assignée aléatoirement.
 
 Directement vous entrez dans le niveau 1 et vous devez battre le troll.
+
+Lorsque votre santé est inferieur ou égal à 0 vous êtes mort... et si l'ennemi est aussi inferieur ou égal à 0 il meurt :)
+
 Vous avez le choix entre consommer une potion pour récuperer de la santé (attention vous avez seulement trois potions) ou attaquer avec un sort l'ennemie.
   La potion vous feras récuperer 3O HP et 35 HP si vous etes de la maison Hufflepuff.
   Lorsque vous n'avez plus de potions le message "Vous n'avez plus de potion" apparait.
@@ -19,3 +22,5 @@ Vous avez le choix entre consommer une potion pour récuperer de la santé (atte
   Au niveau 2 vous avez accès à un deuxième sors, "accio" pour faire fuir les ennemies.
   
 Si vous êtes de Griffondor, au début du niveau 2 vous avez débloquer  "Épée de Griffondor".  
+
+
