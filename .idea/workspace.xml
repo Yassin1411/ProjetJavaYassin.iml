@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="792d3498-9b93-46ff-8603-2ae1309966ee" name="Changes" comment="Derniere Maj du 02/04/2023">
+    <list default="true" id="792d3498-9b93-46ff-8603-2ae1309966ee" name="Changes" comment="Derniere Maj.1 du 02/04/2023">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/Wizard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680473689855</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Derniere Maj du 02/04/2023">
+      <created>1680475091979</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680475091979</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,6 +116,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="Derniere Maj du 02/04/2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="Derniere Maj du 02/04/2023" />
+    <MESSAGE value="Derniere Maj.1 du 02/04/2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="Derniere Maj.1 du 02/04/2023" />
   </component>
 </project>
