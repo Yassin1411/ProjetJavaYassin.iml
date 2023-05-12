@@ -93,6 +93,7 @@ public class Wizard extends Character {
     int i = 1;
     for(AbstractSpell s : this.knowsSpells){
       System.out.println(Integer.toString(i)+" : "+s);
+      i+=1;
     }
   }
 
